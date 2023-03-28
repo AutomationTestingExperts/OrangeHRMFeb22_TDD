@@ -76,7 +76,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.get(Util.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		ExtentReport.infoTest("Browser & application launched successfully!!!!!!!");
+		ExtentReport.infoTest("Browser :"+browser+" & application "+ Util.getProperty("url") +" launched successfully!!!!!!!");
 	}
 
 }
