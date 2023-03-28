@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39092" started-at="2023-03-26T04:42:53Z" finished-at="2023-03-26T04:43:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39092" started-at="2023-03-26T04:42:53Z" finished-at="2023-03-26T04:43:32Z">
+      <class name="com.HRM.testCases.TC_LoginPage">
+        <test-method status="PASS" signature="brforeSuite()[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="brforeSuite" is-config="true" duration-ms="122" started-at="2023-03-26T10:12:53Z" finished-at="2023-03-26T10:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeSuite -->
+        <test-method status="PASS" signature="brforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="brforeMethod" is-config="true" duration-ms="13329" started-at="2023-03-26T10:12:53Z" finished-at="2023-03-26T10:13:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HRM.testCases.TC_LoginPage.validateLoginFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="validateLoginFunctionality()[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="validateLoginFunctionality" duration-ms="3966" started-at="2023-03-26T10:13:07Z" finished-at="2023-03-26T10:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="afterMethod" is-config="true" duration-ms="1882" started-at="2023-03-26T10:13:11Z" finished-at="2023-03-26T10:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="brforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="brforeMethod" is-config="true" duration-ms="6665" started-at="2023-03-26T10:13:12Z" finished-at="2023-03-26T10:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HRM.testCases.TC_LoginPage.validateLoginFunctionality2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeMethod -->
+        <test-method status="PASS" signature="validateLoginFunctionality2()[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="validateLoginFunctionality2" duration-ms="12107" started-at="2023-03-26T10:13:19Z" finished-at="2023-03-26T10:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="afterMethod" is-config="true" duration-ms="1119" started-at="2023-03-26T10:13:31Z" finished-at="2023-03-26T10:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.HRM.testCases.TC_LoginPage@246ae04d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-03-26T10:13:32Z" finished-at="2023-03-26T10:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.HRM.testCases.TC_LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
