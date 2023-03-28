@@ -38,7 +38,7 @@ public class BaseClass {
 		
 		htmlPath = reportsPath + "\\" + method.getName() + "_" + Util.getRandomNumWithCurrentDate() + ".html";
 		report = ExtentReport.startReport(htmlPath, method.getName(), "");
-		launchBrowser("chrome");
+		launchBrowser(Util.getProperty("browser"));
 	}
 
 	@AfterMethod
